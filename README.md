@@ -15,4 +15,4 @@ In order to use the application locallaly, Run the following command:
 # Deployed Site
 [Link to Site](https://ivydo.github.io/React-Portfolio/)
 
-![Screenshot](.\src\components\assets\screenshot.png)
+![Screenshot](..\src\components\assets\screenshot.png)
