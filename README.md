@@ -13,6 +13,6 @@ In order to use the application locallaly, Run the following command:
 `npm start`
 
 # Deployed Site
-[Link to Site](https://ivydo.github.io/React-Portfolio/)
+[Link to Site](https://react-portfolio-ivy.herokuapp.com/)
 
 ![Screenshot](./src/components/assets/screenshot.png)
