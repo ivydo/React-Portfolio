@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Routes>
+      <Route path='/' element={<App />}></Route>
+      <Route path='/about' element={<About />}></Route>
+      <Route path='/projects' element={<Projects />}></Route>
+      <Route path='/contact' element={<Contact />}></Route>
+
+
+    </Routes>
+  </Router>,
   document.getElementById('root')
 );
 

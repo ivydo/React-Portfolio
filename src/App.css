@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #FFFEFD;
+    background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-Intro h1 {
+font-size: 36px;
+}
+
+.Home-Intro p {
+    font-size: 18px;
+
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {
+  .text-secondary {
+    font-size: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .text-main {
+    font-size: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .contact-me {
+    padding: 15px;
   }
+  .navbar-list li a {
+    font-size: 22px;
+   }
+   .navbar-container h1 {
+     font-size: 22px;
+   }
+
+}
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+  .navbar-list li a {
+    padding: 5px;
+    font-size: 18px;
+   }
+   .navbar-container h1 {
+     font-size: 18px;
+   }
 }

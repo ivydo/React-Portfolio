@@ -1,0 +1,17 @@
+.profile {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
+    width: 60%;
+    margin: 50px 25px;
+}

@@ -1,0 +1,26 @@
+.navbar-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #36454F;
+}
+
+.navbar-ul {
+    display: flex;
+    margin: 25px;
+    list-style-type: none;
+
+}
+
+li {
+    margin: 0 1rem;
+    text-decoration: none;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
