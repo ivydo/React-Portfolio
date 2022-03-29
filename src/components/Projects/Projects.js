@@ -4,6 +4,8 @@ import Card1 from '../ProjectCards/Card1';
 import Card2 from '../ProjectCards/Card2';
 import Card3 from '../ProjectCards/Card3';
 import Card4 from '../ProjectCards/Card4';
+import Card5 from '../ProjectCards/Card5';
+import Card6 from '../ProjectCards/Card6';
 // import im1 from '../assets/full-stack.png'
 // import im1 from '../assets/event.png'
 // import im1 from '../assets/run.png'
@@ -30,8 +32,8 @@ function Projects() {
           </div>
           {/* col3 */}
           <div className='column'>
-            <Card3 />
-            <Card4 />
+            <Card5 />
+            <Card6 />
           </div>
         </div>
       </div>

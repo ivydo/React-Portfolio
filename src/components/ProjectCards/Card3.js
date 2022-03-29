@@ -1,17 +1,18 @@
 import React from 'react'
+import Event from "../assets/event.png"
 
 function Card3() {
   return (
     <div className='card-container'>
       <div className='card'>
         <div className='card-header'>
-          <div className='title'>MERN Project</div>
+          <div className='title'>Front-End</div>
         </div>
         <div className='card-image'>
-        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
+        <img src={Event} alt="Placeholder"/>
         </div>
         <div className='card-content'>
-          <a href="https://pacific-sea-53881.herokuapp.com/">Sparkling Spaces</a>
+          <a href="https://pacific-sea-53881.herokuapp.com/">Event Finder</a>
         </div>
       </div>
     </div>  )

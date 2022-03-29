@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Sparkling from "../assets/sparkling.png"
 
 function Card1() {
   return (
@@ -8,7 +9,7 @@ function Card1() {
           <div className='title'>MERN Project</div>
         </div>
         <div className='card-image'>
-        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
+        <img src={Sparkling} alt="Placeholder"/>
         </div>
         <div className='card-content'>
           <a href="https://pacific-sea-53881.herokuapp.com/">Sparkling Spaces</a>

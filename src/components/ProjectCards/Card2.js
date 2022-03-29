@@ -1,4 +1,5 @@
 import React from 'react'
+import Squeaky from "../assets/full-stack.png"
 
 function Card2() {
   return (
@@ -8,7 +9,7 @@ function Card2() {
           <div className='title'>Full Stack Project</div>
         </div>
         <div className='card-image'>
-        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder"/>
+        <img src={Squeaky} alt="Placeholder"/>
         </div>
         <div className='card-content'>
           <a href="https://pacific-sea-53881.herokuapp.com/">Squeaky Cleaners</a>

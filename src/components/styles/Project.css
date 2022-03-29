@@ -92,3 +92,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.card {
+  height: 200px;
+  width: 500px;
+  margin-bottom: 180px;
+  }
+
