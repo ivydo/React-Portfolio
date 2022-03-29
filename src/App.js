@@ -3,6 +3,8 @@ import Navbar from './components/Navbar/Navbar';
 import './App.css'
 import Welcome from './components/assets/welcome.gif';
 
+//components
+
 
 function App() {
   return (
